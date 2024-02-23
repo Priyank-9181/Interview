@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.titleOuterContainer {
+  width: 80%;
+}
+
+.appTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.appTitleContainer h5 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.appImgContainer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.appImgContainer img {
+  width: 100px;
+  height: 35px;
+}
+
+.downloadContainer {
+  width: 80%;
+  height: 400px;
+  margin-top: 60px;
+  border-radius: 10px;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0d2746;
+  justify-content: space-around;
+}
+
+.downloadAppLogoContainer {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.downloadAppLogoContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.downloadAppInfoContainer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.downloadAppInfoContainer h1 {
+  color: white;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.downloadAppInfoContainer h1 mark {
+  background-color: none;
+  background: none;
+  color: #40b5e8;
+}
+
+.downloadAppInfoContainer p {
+  color: white;
+  margin: 0px;
+}
+
+.downloadAppInfoContainer div {
+  display: flex;
+  width: 100px;
+  height: fit-content;
+  gap: 20px;
+}
+
+.downloadAppInfoContainer div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

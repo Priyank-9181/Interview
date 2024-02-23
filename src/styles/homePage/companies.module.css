@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.titleContainer {
+  width: 80%;
+}
+
+.titleContainer h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.cardsContainer {
+  width: 80%;
+  display: flex;
+  gap: 8px 8px;
+  flex-wrap: wrap;
+}
+
+.companiesCardContainer {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e2dede;
+  border-radius: 5px;
+  gap: 8px;
+  padding: 6px 12px;
+  transition: all 1s ease;
+}
+
+.companiesCardContainer:hover {
+  border: 1px solid #0963c2;
+  .companiesCardArrowContainer {
+    color: #0963c2;
+  }
+}
+
+.companiesCardImgContainer img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.companiesInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1;
+}
+
+.companiesInfoContainer p {
+  margin: 0px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 5px;
+}
+
+.companiesInfoContainer h3 {
+  margin: 0px;
+  font-size: 0.8rem;
+}
+
+.companiesCardArrowContainer i {
+  margin-right: 10px;
+}

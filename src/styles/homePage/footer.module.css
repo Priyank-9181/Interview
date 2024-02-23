@@ -1,0 +1,84 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 90px;
+  color: #999999;
+}
+
+.mainContainer div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mainContainer div:nth-child(1) img {
+  width: 80px;
+  height: 60px;
+}
+
+.mainContainer div:nth-child(1) p {
+  display: flex;
+  gap: 8px;
+}
+
+.mainContainer div:nth-child(3) ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mainContainer div:nth-child(4) ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mainContainer div:nth-child(2) p {
+  display: flex;
+  gap: 4px;
+  margin: 0px;
+}
+
+.mainContainer div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.footerRightsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.footerRightsContainer div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRightsContainer div hr {
+  width: 100%;
+  border-top: 1px solid #999999;
+  margin-top: 5px;
+}
+
+.footerRightsContainer div p {
+  margin: 10px;
+}
+
+.footerRightsContainer div p mark {
+  background: none;
+  color: #40b5e8;
+}
