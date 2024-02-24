@@ -23,6 +23,22 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 650px) {
+  .cardsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 8px 8px;
+    flex-wrap: wrap;
+  }
+
+  .titleContainer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+}
+
 .companiesCardContainer {
   width: 220px;
   height: 50px;

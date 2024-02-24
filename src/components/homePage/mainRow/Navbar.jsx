@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../../../styles/homePage/mainRow.module.css";
 
-
 function Navbar() {
   return (
     <div className={styles.mainContainer}>

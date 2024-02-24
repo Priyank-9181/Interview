@@ -26,6 +26,23 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 650px) {
+  .featureOuterContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 16px 16px;
+    flex-wrap: wrap;
+  }
+  .featureButtonContainer {
+    width: 80%;
+    flex-grow: 1;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .featureButtonContainer {
   width: 80%;
   flex-grow: 1;
